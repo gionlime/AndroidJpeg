@@ -17,7 +17,11 @@ import android.widget.Toast;
 import com.yunbo.jpeg.databinding.ActivityMainBinding;
 
 import java.io.File;
-
+/**
+ * create by jeek
+ * 2022/6/14
+ * des:
+ **/
 public class MainActivity extends AppCompatActivity {
 
     private ActivityMainBinding binding;

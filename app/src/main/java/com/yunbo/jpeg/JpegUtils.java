@@ -3,14 +3,14 @@ package com.yunbo.jpeg;
 import android.graphics.Bitmap;
 
 /**
- * FileName: JpegUtils
- * Author: JiaoCan
- * Date: 2022/4/8 11:12
- */
+ * create by jeek
+ * 2022/6/14
+ * des:
+ **/
 
 public class JpegUtils {
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("jpeg-utils");
     }
 
     public static native boolean compressBitmap(Bitmap bitmap, int width, int height, String fileName, int quality);

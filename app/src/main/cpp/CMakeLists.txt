@@ -15,13 +15,13 @@ project("jpegtest")
 # Gradle automatically packages shared libraries with your APK.
 
 add_library( # Sets the name of the library.
-        native-lib
+        jpeg-utils
 
         # Sets the library as a shared library.
         SHARED
 
         # Provides a relative path to your source file(s).
-        native-lib.cpp)
+        jpeg-utils.cpp)
 
 
 include_directories(src/main/cpp/include)
@@ -46,7 +46,7 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 target_link_libraries( # Specifies the target library.
-        native-lib
+        jpeg-utils
         jpeg
         jnigraphics
         # Links the target library to the log library

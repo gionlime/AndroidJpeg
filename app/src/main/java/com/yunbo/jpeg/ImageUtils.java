@@ -7,10 +7,10 @@ import android.media.ExifInterface;
 import java.io.File;
 
 /**
- * FileName: ImageUtils
- * Author: JiaoCan
- * Date: 2022/4/8 13:32
- */
+ * create by jeek
+ * 2022/6/14
+ * des:
+ **/
 
 public class ImageUtils {
 
