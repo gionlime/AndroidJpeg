@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             }
             bitmap = ImageUtils.checkRotate(file, bitmap);
 
-            boolean isSuccessful = JpegUtils.compressBitmap(bitmap, bitmap.getWidth(), bitmap.getHeight(), compressFilePath, 30);
+            boolean isSuccessful = JpegUtils.compressBitmap(bitmap, bitmap.getWidth(), bitmap.getHeight(), compressFilePath, 40);
             showCompressResult(isSuccessful);
         });
 
